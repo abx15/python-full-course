@@ -116,3 +116,17 @@ print("center(20, '-'):", str4.strip().center(20, "-"))
 print("ljust(20, '-'):", str4.strip().ljust(20, "-"))
 print("rjust(20, '-'):", str4.strip().rjust(20, "-"))
 print("zfill(5):", "123".zfill(5))
+
+n = "Hello123"
+print (n.isalnum()) # True
+print (n.isalpha()) # False
+print (n.isdigit()) # False
+print (n.islower()) # False
+print (n.isupper()) # False
+print (n.isspace()) # False
+print (n.istitle()) # True
+print (n.isprintable()) # True
+print (n.isidentifier()) # True
+print (n.isascii()) # True
+print (n.isnumeric()) # False
+print (n.isdecimal()) # False
