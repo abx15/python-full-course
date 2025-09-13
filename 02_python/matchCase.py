@@ -17,7 +17,7 @@ match op:
         if num2 != 0:
             print(f"{num1} / {num2} = {num1 / num2}")
         else:
-            print("Error: Division by zero ❌")
+            print("Error: Division by zero ")
     case "%":
         print(f"{num1} % {num2} = {num1 % num2}")
     case "**":
@@ -26,6 +26,6 @@ match op:
         if num2 != 0:
             print(f"{num1} // {num2} = {num1 // num2}")
         else:
-            print("Error: Division by zero ❌")
+            print("Error: Division by zero ")
     case _:
-        print("Invalid Operator ❌")
+        print("Invalid Operator ")
