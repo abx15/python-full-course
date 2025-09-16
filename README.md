@@ -146,9 +146,9 @@ python filename.py
 👤 **Arun Kumar**
 
 - 📧 **Email:** [developerarunwork@gmail.com](mailto:developerarunwork@gmail.com)
-- 🌐 **Portfolio:** [https://arun15dev.netlify.app/](https://arun15dev.netlify.app/)
-- 🌐 **Portfolio3d:**[https://arun-s-devspace-3d.netlify.app/](https://arun-s-devspace-3d.netlify.app/)
-- 💼 **LinkedIn:** [Arun Kumar](https://www.linkedin.com/in/arun-kumar-a3b047353/)
+- 🌐 **Portfolio:** [Arun Kumar Bind](https://arun15dev.netlify.app/)
+- 🌐 **Portfolio3d:**[3D portfolio](https://arun-s-devspace-3d.netlify.app/)
+- 💼 **LinkedIn:** [Arun Kumar](https://www.linkedin.com/in/arun-kumar-bind-a3b047353/)
 - 📂 **GitHub:** [abx15](https://github.com/abx15)
 
 ### ✨ Happy Coding and Learning Python! 🐍
