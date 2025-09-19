@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, account_number, balance=0):
         self.account_number = account_number
-        self.__balance = balance    # Private (Encapsulation)
+        self.__balance = balance    
 
     def deposit(self, amount):
         if amount > 0:
@@ -39,18 +39,14 @@ class CurrentAccount(BankAccount):
         super().__init__(account_number, balance)
         self.overdraft_limit = overdraft_limit
 
-    def withdraw(self, amount):  # Method Overriding
+    def withdraw(self, amount): 
         if 0 < amount <= self.get_balance() + self.overdraft_limit:
-            # overdraft allow
             new_balance = self.get_balance() - amount
-            # ✅ अब balance update भी होगा
-            # सीधे __balance access नहीं कर सकते, इसलिए deposit/withdraw trick
             if amount <= self.get_balance():
-                super().withdraw(amount)  # normal withdrawal
+                super().withdraw(amount)  
             else:
-                # overdraft case
                 diff = amount - self.get_balance()
-                super().withdraw(self.get_balance())  # empty balance
+                super().withdraw(self.get_balance()) 
                 print(f"Overdraft used: {diff}. Balance is negative: {new_balance}")
         else:
             print("Withdrawal exceeds overdraft limit")
